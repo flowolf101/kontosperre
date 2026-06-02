@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontaktieren Sie Rechtsanwalt Ilan Rosenberg für eine vertrauliche Ersteinschätzung bei Kontosperrung.">
+  <title>Kontakt | Rosenberg Law</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">ROSENBERG <span>LAW</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="leistungen.html">Leistungen</a></li>
+        <li><a href="ueber-uns.html">Über uns</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="section section-dark" style="padding-top: 140px;">
+    <div class="container">
+      <span class="section-label">Kontakt</span>
+      <h1 class="section-title" style="font-size: clamp(2rem, 4vw, 3.2rem);">Kontaktieren Sie uns</h1>
+      <div class="divider"></div>
+      <p class="section-text">
+        Konto gesperrt? Schildern Sie uns Ihren Fall — wir melden uns umgehend bei Ihnen
+        mit einer vertraulichen Ersteinschätzung.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT METHODS -->
+  <section class="section section-darker">
+    <div class="container">
+      <div class="grid-3">
+        <!-- Email CTA box -->
+        <a href="mailto:rosenberg@rosenberg-law.de?subject=Kontosperrung%20–%20Anfrage" class="contact-card" style="text-decoration: none;">
+          <div class="icon">✉</div>
+          <div>
+            <div class="label">E-Mail</div>
+            <div class="value" style="color: var(--orange);">rosenberg@rosenberg-law.de</div>
+          </div>
+        </a>
+
+        <!-- Phone -->
+        <a href="tel:+4917664171745" class="contact-card" style="text-decoration: none;">
+          <div class="icon">📞</div>
+          <div>
+            <div class="label">Telefon</div>
+            <div class="value" style="color: var(--text-light);">+49 176 64171745</div>
+          </div>
+        </a>
+
+        <!-- Website -->
+        <a href="https://rosenberg-law.de" target="_blank" rel="noopener" class="contact-card" style="text-decoration: none;">
+          <div class="icon">🌐</div>
+          <div>
+            <div class="label">Website</div>
+            <div class="value" style="color: var(--mint);">rosenberg-law.de</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM + INFO -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- FORM -->
+        <div>
+          <h2 style="font-family: var(--serif); font-size: 1.6rem; font-weight: 500; margin-bottom: 0.5rem;">Nachricht senden</h2>
+          <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">
+            Alle Angaben werden vertraulich behandelt.
+          </p>
+
+          <form action="mailto:rosenberg@rosenberg-law.de" method="post" enctype="text/plain">
+            <div class="grid-2" style="gap: 1.5rem;">
+              <div class="form-group">
+                <label for="vorname">Vorname *</label>
+                <input type="text" id="vorname" name="Vorname" required>
+              </div>
+              <div class="form-group">
+                <label for="nachname">Nachname *</label>
+                <input type="text" id="nachname" name="Nachname" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-Mail *</label>
+              <input type="email" id="email" name="E-Mail" required>
+            </div>
+
+            <div class="form-group">
+              <label for="telefon">Telefon</label>
+              <input type="tel" id="telefon" name="Telefon">
+            </div>
+
+            <div class="form-group">
+              <label for="betreff">Betreff</label>
+              <input type="text" id="betreff" name="Betreff" value="Kontosperrung — Anfrage">
+            </div>
+
+            <div class="form-group">
+              <label for="nachricht">Beschreibung Ihres Falls *</label>
+              <textarea id="nachricht" name="Nachricht" placeholder="Bitte schildern Sie uns kurz Ihre Situation: Welche Bank ist betroffen? Seit wann ist das Konto gesperrt? Welche Gründe wurden genannt?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">✉ Nachricht senden</button>
+          </form>
+        </div>
+
+        <!-- INFO SIDEBAR -->
+        <div>
+          <h2 style="font-family: var(--serif); font-size: 1.6rem; font-weight: 500; margin-bottom: 2rem;">Soforthilfe</h2>
+
+          <div class="urgency-banner" style="flex-direction: column; text-align: left;">
+            <div>
+              <h3>Konto gesperrt?</h3>
+              <p style="margin-bottom: 1rem;">In dringenden Fällen erreichen Sie uns am schnellsten per E-Mail oder Telefon. Wir melden uns in der Regel noch am selben Tag.</p>
+              <a href="mailto:rosenberg@rosenberg-law.de?subject=DRINGEND%20–%20Kontosperrung" class="btn btn-primary">✉ Dringende Anfrage senden</a>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem;">
+            <h3 style="font-family: var(--serif); font-size: 1.2rem; font-weight: 500; margin-bottom: 1rem;">Für Ihre Anfrage hilfreich:</h3>
+            <div class="info-block">
+              <h3>Aktueller Kontoauszug</h3>
+              <p>Des betroffenen Kontos, um den Stand und die gesperrten Beträge zu erkennen.</p>
+            </div>
+            <div class="info-block">
+              <h3>Korrespondenz mit der Bank</h3>
+              <p>Alle Schreiben, E-Mails oder Mitteilungen Ihrer Bank bezüglich der Sperre.</p>
+            </div>
+            <div class="info-block">
+              <h3>Hintergrund der Transaktion(en)</h3>
+              <p>Eine kurze Darstellung der Transaktionen, die möglicherweise die Sperre ausgelöst haben.</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem; padding: 2rem; background: var(--dark-lighter); border-radius: 4px;">
+            <h3 style="font-family: var(--serif); font-size: 1.15rem; font-weight: 500; margin-bottom: 0.5rem;">Rechtsanwalt Ilan Rosenberg</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
+              Über 20 Jahre Erfahrung im Bank- und Wirtschaftsrecht. Ehemals EY Law &amp; J.P. Morgan Chase.
+            </p>
+            <div class="bio-contact-item">
+              <span>✉</span>
+              <a href="mailto:rosenberg@rosenberg-law.de">rosenberg@rosenberg-law.de</a>
+            </div>
+            <div class="bio-contact-item">
+              <span>📞</span>
+              <a href="tel:+4917664171745">+49 176 64171745</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LARGE EMAIL CTA -->
+  <section class="section section-cream" style="text-align: center;">
+    <div class="container">
+      <h2 class="section-title">Lieber direkt per E-Mail?</h2>
+      <p class="section-text" style="margin: 0 auto 2rem;">
+        Klicken Sie auf die Schaltfläche — Ihr E-Mail-Programm öffnet sich automatisch
+        mit der richtigen Adresse und einem vorausgefüllten Betreff.
+      </p>
+      <a href="mailto:rosenberg@rosenberg-law.de?subject=Kontosperrung%20–%20Anfrage&body=Sehr%20geehrter%20Herr%20Rosenberg%2C%0A%0Aich%20wende%20mich%20an%20Sie%2C%20da%20mein%20Konto%20gesperrt%20wurde.%0A%0AMit%20freundlichen%20Grüßen" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 3rem;">
+        ✉ E-Mail an rosenberg@rosenberg-law.de verfassen
+      </a>
+      <p style="color: #6B6560; font-size: 0.85rem; margin-top: 1rem;">
+        Vertraulich — Rechtsanwalt Rosenberg meldet sich persönlich bei Ihnen.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-copy">© 2026 Rosenberg Law — Rechtsanwalt Ilan Rosenberg</div>
+      <ul class="footer-links">
+        <li><a href="mailto:rosenberg@rosenberg-law.de">rosenberg@rosenberg-law.de</a></li>
+        <li><a href="https://rosenberg-law.de" target="_blank" rel="noopener">rosenberg-law.de</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+  </script>
+
+</body>
+</html>
